@@ -96,7 +96,7 @@ header .mobile {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
   }
 
   header .mobile li {
@@ -180,6 +180,7 @@ header .mobile {
     height: auto;
     background-color: transparent;
     border: none;
+    margin: 0;
   }
 
   #sign-up-cta .content {
@@ -279,6 +280,10 @@ header .mobile {
   .feature {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
+  }
+
+  #features-section .content {
+    margin: 20px 0 30px 0;
   }
 }
 
@@ -385,6 +390,18 @@ header .mobile {
     padding-top: 1rem;
     margin: auto;
   }
+
+  #quotes-section .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+    #quotes-section img {
+      width: fit-content;
+      padding-top: 1.2rem;
+    }
 }
 
 /* Footer */
