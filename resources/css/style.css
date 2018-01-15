@@ -181,10 +181,12 @@ header .mobile {
     background-color: transparent;
     border: none;
     margin: 0;
+    padding: 2.5rem 0 0 0;
   }
 
   #sign-up-cta .content {
     margin-top: 0;
+    width: auto;
   }
 
   #sign-up-cta .email {
